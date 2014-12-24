@@ -24,23 +24,14 @@
             <exception-mapping exception="java.lang.Exception" result="error"/>
         </global-exception-mappings>
 
-        <action name="hello" class="org.cuatrovientos.struts.Hello">
-            <result name="success">Hello.jsp</result>
+        <action name="introduccion" class="org.teststrut2.main.Introduccion">
+        	
+            <result name="success">introduccion.jsp</result>
+            <result name="error">error.jsp</result>
         </action>
         
-        <action name="login_*" method="{1}" class="org.cuatrovientos.struts.Login">
-            <result name="input">Login.jsp</result>
-            <result name="error">Login.jsp</result>
-            <result name="success">Main.jsp</result>
-        </action>
-                
-        <action name="main" class="org.cuatrovientos.struts.Main">
-            <result name="success">Main.jsp</result>
-        </action>
         
-        <action name="mainSelect" method="selectAll" class="org.cuatrovientos.struts.Main">
-            <result name="success">Main.jsp</result>
-        </action>
+       
     </package>
 
 

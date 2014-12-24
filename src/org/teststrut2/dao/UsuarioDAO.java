@@ -32,7 +32,7 @@ public class UsuarioDAO implements UsuaioDAOInterface {
 	public UsuarioDAO () {
 		
 	
-		session = HibernateSession.getSession();
+		//session = HibernateSession.getSession();
 	}
 	
 	/* 
